@@ -10,9 +10,9 @@
 // console.log(describeUkraine);
 // console.log(describeIreland);
 
-function percentageOfWorld1(population) {
-    return (population / 7900) * 100;
-}
+// function percentageOfWorld1(population) {
+//     return (population / 7900) * 100;
+// }
 
 // const percentageOfWorldNorway = percentageOfWorld1(5);
 // const percentageOfWorldUkraine = percentageOfWorld1(37);
@@ -57,3 +57,44 @@ function percentageOfWorld1(population) {
 // console.log(NorwayDescribed);
 // console.log(UkraineDescribed);
 // console.log(UKDescribed);
+
+// const populations = [5, 4, 37, 68];
+
+// console.log(populations === 4);
+
+// const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
+
+// console.log(percentages);
+
+// const neighbours = ['Russia', 'Finland', 'Sweden'];
+// console.log(neighbours);
+
+// neighbours.push('Utopia');
+// console.log(neighbours);
+
+// neighbours.pop();
+// console.log(neighbours);
+
+// if(!neighbours.includes('Germany')) {
+//     console.log('Probably not a central europeaan country :D');
+// }
+
+// neighbours[neighbours.indexOf('Sweden')] = 'Kingodm of Sweden';
+// console.log(neighbours);
+
+// const myCountry = {
+//     country: 'Norway',
+//     capital: 'Oslo',
+//     language: ['Bokmål', 'Nynorsk'],
+//     spokenLanguage: 'norwegian',
+//     population: 6,
+//     neighbours: ['Russia', 'Finland', 'Sweden']
+// };
+
+// console.log(`${myCountry.country} has a population of ${myCountry.population} million ${myCountry.spokenLanguage}-speaking people. ${myCountry.country} has ${myCountry.neighbours.length} neighbouring countries, and its capital is called ${myCountry.capital}.`);
+
+// myCountry.population += 2;
+// console.log(myCountry);
+
+// myCountry['population'] -= 2;
+// console.log(myCountry);
